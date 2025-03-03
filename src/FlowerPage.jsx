@@ -1,11 +1,6 @@
 import "./FlowerPage.css";
 import { useEffect, useState } from "react";
 function FlowerPage({flowersdata}) {
-  // const images = [
-  //   "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt12prodlp/products/p-mauve-surprise-385687-m.jpg",
-  //   "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt12prodlp/products/p-mauve-surprise-385687-5.jpg",
-  //   "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt12prodlp/products/p-mauve-surprise-385687-2.jpg",
-  // ];
   const images=flowersdata.images
   let [index, setIndex] = useState(0);
   function imageChange() {
