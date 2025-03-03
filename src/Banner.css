@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+.main{
+    width: 80%;
+    height: 70vh;
+    margin:auto ;
+    margin-top: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.slide{
+    width:100%;
+    height:100%;
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+fade{
+    opacity: 0;
+}
+.slide.fade{
+    opacity: 1;
+}
+@media screen and (max-width: 600px){
+    .main{
+        width: 100%;
+        height: 25vh;
+        margin: 10px;
+        
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 601px){
+    .main{
+        width: 90vw;
+        height: 20vh;
+        margin: 10px;
+    }
+}

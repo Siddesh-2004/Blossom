@@ -17,6 +17,7 @@ function App() {
     <>
  <Nav />
  <Features/>
+ <Banner/>
  <div className="container">
     <Card flowers={{src:img1,name:"SkyPink Roses",rating:4.6,avalablityStatus:"In Stock",price:6999}} />
     <Card flowers={{src:img2,name:"Chocolately Delight",rating:4.0,avalablityStatus:"Out of Stock",price:9999}} />
