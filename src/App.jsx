@@ -3,6 +3,7 @@ import Features from "./FeaturesList.jsx";
 import './App.css'
 import Card from './Card.jsx'
 import Nav from './Navbar.jsx'
+import Banner from './Banner.jsx'
 import FlowerPage from "./FlowerPage.jsx";
 function App() {
   let img1="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt7prodlp/products/p-mauve-surprise-385687-m.jpg";
@@ -17,7 +18,11 @@ function App() {
     <>
  <Nav />
  <Features/>
- <Banner/>
+ <Banner banners={{images:[
+     "https://www.mayflower.in/cdn/shop/files/1880_Banner_Home_Main_Fresh_Flowers.jpg?v=1735736721",
+     "https://www.mayflower.in/cdn/shop/files/1880_Banner_Home_Hydrangea.jpg?v=1631626710",
+     "https://www.mayflower.in/cdn/shop/files/1880_Banner_Home_Bunch.jpg?v=1638691960"]
+ }}/>
  <div className="container">
     <Card flowers={{src:img1,name:"SkyPink Roses",rating:4.6,avalablityStatus:"In Stock",price:6999}} />
     <Card flowers={{src:img2,name:"Chocolately Delight",rating:4.0,avalablityStatus:"Out of Stock",price:9999}} />
