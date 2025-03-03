@@ -1,0 +1,74 @@
+:root{
+  --stockStatus: orange;
+  --textColor: rgba(0, 0, 0, 0.7);
+  --cardColor:white;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cardContainer {
+    width: 349px;
+    margin: 10px;
+    border-radius: 10px;
+    transition-property: background-color, box-shadow, transform;
+    transition-duration: 0.5s;
+    outline: solid #cbd5e1 2px;
+    background-color: var(--cardColor);
+  }
+  
+  .cardContainer:hover {
+    box-shadow: 7px 7px 15px 0px rgb(22 21 23);
+    transform: scale(1.05); 
+    
+  }
+
+  
+  
+  .imageContainer {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .img1 {
+    border-radius: 10px;
+    width: 100%;
+
+  }
+  
+  
+  
+  .content {
+    padding-left: 25px;
+    font-family: "Exo 2", serif;
+    font-weight: bolder;
+  }
+  .formatContainer {
+    display: flex;
+    height: 30px;
+  
+    align-items: center;
+  }
+  .flowerName {
+    color: var(--textColor);
+  }
+  .priceValue{
+    font-weight: bold;
+  }
+  .reviewAndAvalibilityContainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+  }
+  .review {
+    font-weight: lighter;
+  }
+  .availabityStatus {
+    color: var(--stockStatus);
+    font-weight: 400;
+  }
+  

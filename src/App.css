@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  width: 98vmax;
+  height: 100vmin;
+  justify-content: space-evenly;
+  align-items:first baseline;
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
