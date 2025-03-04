@@ -10,6 +10,7 @@
     margin-top: 10px;
     position: relative;
     overflow: hidden;
+    border-radius: 20px;
 }
 .slide{
     width:100%;
