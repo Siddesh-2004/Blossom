@@ -13,7 +13,7 @@
   }
   
   .cardContainer {
-    width: 349px;
+    width: 345px;
     margin: 10px;
     border-radius: 10px;
     transition-property: background-color, box-shadow, transform;
