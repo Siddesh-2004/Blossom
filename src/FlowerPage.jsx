@@ -18,7 +18,7 @@ function FlowerPage({flowersdata}) {
   }
   function front() {
     if (index > 0) {
-      setIndex((prev) => prev - 1);
+      setIndex((prev) => prev +1);
     } else {
       setIndex(images.length - 1);
     }

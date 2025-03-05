@@ -5,6 +5,7 @@ import Card from "../Card.jsx";
 import Nav from "../Navbar.jsx";
 import Banner from "./Banner.jsx";
 import "./Home.css";
+import OccassionCard from "../OccassionCard.jsx";
 
 function Home() {
   let img1 =
@@ -25,8 +26,7 @@ function Home() {
     "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt7prodlp/products/p-regal-blossom-389731-m.jpg";
   return (
     <>
-      <Nav />
-      <Features />
+     
       <Banner
         banners={{
           images: [
@@ -36,8 +36,30 @@ function Home() {
           ],
         }}
       />
-      <div className="container">
-        <Card
+      <p className="occassionTitle">Celebrate with flowers</p>
+      <p className="occasionSubtitle">May the fragarence of happiness elevate your occasion</p>
+      <div className="occassionConatainer">
+            <OccassionCard 
+          occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/birthday_d_split_illustration_830_1738154831704"/>
+            <OccassionCard 
+          occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/anniversary_d_split_illustration_830_1738154869104"/>
+           <OccassionCard 
+          occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/wedding_gifts_d_split_illustration_830_1738155423856"/>
+           <OccassionCard 
+          occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/grand_gestures_d_split_illustration_830_1738230308822"/>
+           <OccassionCard 
+          occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/gifts_for_men_d_split_illustration_830_1738154921657"/>
+           <OccassionCard 
+          occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/congratulations_d_split_illustration_830_1738155459964"/>
+
+      </div>
+      <p className="bestSellingTitle">Best Selling</p>
+      <p className="bestSellingSubtitle">Floral arrangeme that gets the most love</p>
+
+  
+<div className="bestSellingContainer ">
+     
+      <Card
           flowers={{
             src: img1,
             name: "SkyPink Roses",
@@ -73,43 +95,8 @@ function Home() {
             price: 10999,
           }}
         />
-        <Card
-          flowers={{
-            src: img5,
-            name: "Morning Sunflowers",
-            rating: 4.9,
-            avalablityStatus: "In Stock",
-            price: 6999,
-          }}
-        />
-        <Card
-          flowers={{
-            src: img6,
-            name: "Morning Sunflowers",
-            rating: 3.6,
-            avalablityStatus: "IOut of Stock",
-            price: 6999,
-          }}
-        />
-        <Card
-          flowers={{
-            src: img7,
-            name: "Morning Sunflowers",
-            rating: 4.8,
-            avalablityStatus: "Out of Stock",
-            price: 6999,
-          }}
-        />
-        <Card
-          flowers={{
-            src: img8,
-            name: "Morning Sunflowers",
-            rating: 4.6,
-            avalablityStatus: "In Stock",
-            price: 6999,
-          }}
-        />
-      </div>
+
+</div>
     </>
   );
 }

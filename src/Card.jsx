@@ -3,10 +3,11 @@ import "./card.css";
 
 
 function Card({ flowers }) {
+  
   return (
     <>
       
-        <div className="cardContainer">
+        <div className="cardContainer" >
           <div className="imageContainer">
             <img src={flowers.src} className="img1" />
           </div>
