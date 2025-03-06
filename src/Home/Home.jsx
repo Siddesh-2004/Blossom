@@ -54,7 +54,7 @@ function Home() {
 
       </div>
       <p className="bestSellingTitle">Best Selling</p>
-      <p className="bestSellingSubtitle">Floral arrangeme that gets the most love</p>
+      <p className="bestSellingSubtitle">Floral arrangements that gets the most love</p>
 
   
 <div className="bestSellingContainer ">
@@ -97,6 +97,20 @@ function Home() {
         />
 
 </div>
+<div className="backgroundImageContainer">
+<p className="sentimentTitle">SOFT SENTIMENTALS, <br/>WHISPERED THROUGH FLOWERS</p>
+  <div className="sentimentButtons">
+    <button className="sentimentButton">SEND<br/> THANK YOU</button>
+    <button className="sentimentButton">SEND <br/>GET WELL SOON</button>
+    <button className="sentimentButton">SEND <br/>CONGRATS</button>
+  </div> 
+  <div className="sentimentButtons">
+    <button className="sentimentButton">FOR <br/>HOUSEWARMING</button>
+    <button className="sentimentButton">FOR <br/>BABYSHOWER</button>
+    <button className="sentimentButton">FOR <br/>THE HOST</button>
+  </div>
+</div>
+
     </>
   );
 }

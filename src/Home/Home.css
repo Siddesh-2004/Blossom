@@ -1,17 +1,17 @@
 .occassionTitle {
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bold;
+  font-size: 40px;
+  font-family: "Dancing Script";
+  font-weight: bolder;
   padding-top: 20px;
   padding-left: 40vw;
 }
 .occasionSubtitle {
   font-weight: lighter;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.6);
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Dancing Script";
   padding-bottom: 20px;
-  padding-left: 36vw;
+  padding-left: 38vw;
 }
 .occassionConatainer {
   display: flex;
@@ -21,19 +21,19 @@
   width: 100%;
 }
 .bestSellingTitle {
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: bold;
+  font-size: 40px;
+  font-weight: bolder;
   padding-top: 20px;
   padding-left: 44vw;
+  font-family: "Dancing Script";
 }
 .bestSellingSubtitle {
   font-weight: lighter;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.7);
   font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Dancing script";
   padding-bottom: 20px;
-  padding-left: 38vw;
+  padding-left: 40vw;
 }
 .bestSellingContainer {
   display: flex;
@@ -41,3 +41,46 @@
   justify-content: center;
   align-items: center;
 }
+
+.backgroundImageContainer {
+  background-color: rgba(2, 2, 125, 0.598);
+  background-image: url("https://www.mayflower.in/cdn/shop/files/1880_Banner_Home_Hydrangea.jpg?v=1631626710");
+  background-size: cover;
+  width: 90vw; 
+  height: 90vh;
+  margin:auto;
+  background-blend-mode: multiply;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+
+}
+.sentimentTitle{
+  color:whitesmoke;
+  font-size: 70px;
+  font-weight: 600;
+  padding-top: 20px;
+  padding-left: 15vw;
+  font-style: italic;
+  font-family: "Bitter", serif; 
+  
+}
+.sentimentButtons{
+  display : flex;
+  justify-content: space-around;
+  flex-wrap:wrap;
+  padding: 60px;
+
+}
+.sentimentButton{
+  font-family: "Exo 2", serif;
+  font-size: 30px;
+  width: 16vw;
+  height: 100px;
+  background-color: rgba(13, 13, 15, 0.511);
+  border: none;
+  color:white;
+  /* box-shadow:  2px 14px 2px rgba(13, 13, 15, 0.511); */
+  font-family: "Bitter", serif;
+}
+
