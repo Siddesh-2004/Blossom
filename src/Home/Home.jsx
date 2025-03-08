@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Features from "../FeaturesList.jsx";
+import Heading from '../Heading.jsx';
 
 import Card from "../Card.jsx";
 import Nav from "../Navbar.jsx";
@@ -36,8 +37,9 @@ function Home() {
           ],
         }}
       />
-      <p className="occassionTitle">Celebrate with flowers</p>
-      <p className="occasionSubtitle">May the fragarence of happiness elevate your occasion</p>
+      {/* <p className="occassionTitle">Celebrate with flowers</p>
+      <p className="occasionSubtitle">May the fragarence of happiness elevate your occasion</p> */}
+      <Heading heading1="Celebrate with flowers" heading2="May the fragarence of happiness elevate your occasion"  />
       <div className="occassionConatainer">
             <OccassionCard 
           occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/birthday_d_split_illustration_830_1738154831704"/>
@@ -53,9 +55,10 @@ function Home() {
           occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/congratulations_d_split_illustration_830_1738155459964"/>
 
       </div>
-      <p className="bestSellingTitle">Best Selling</p>
-      <p className="bestSellingSubtitle">Floral arrangements that gets the most love</p>
-
+      {/* <p className="bestSellingTitle">Best Selling</p>
+      <p className="bestSellingSubtitle">Floral arrangements that gets the most love</p>  */}
+      
+        <Heading heading1="Best Selling" heading2="Floral arrangements that gets the most love"/>
   
 <div className="bestSellingContainer ">
      
@@ -97,8 +100,11 @@ function Home() {
         />
 
 </div>
+
+
 <div className="backgroundImageContainer">
-<p className="sentimentTitle">SOFT SENTIMENTALS, <br/>WHISPERED THROUGH FLOWERS</p>
+  <p className="sentimentTitle sentimentTitle1">SOFT SENTIMENTS ,</p>
+    <p className="sentimentTitle sentimentTitle2">WHISPERED THROUGH FLOWERS</p> 
   <div className="sentimentButtons">
     <button className="sentimentButton">SEND<br/> THANK YOU</button>
     <button className="sentimentButton">SEND <br/>GET WELL SOON</button>

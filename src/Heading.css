@@ -1,0 +1,25 @@
+.headingContainer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.heading{
+    font-family:"dancing script" ;
+  
+}
+.headFirst{
+  
+    font-size: 45px;
+    font-weight: bolder;
+}
+.headSecond{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.hidden{
+visibility: hidden;
+}
+

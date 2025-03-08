@@ -46,41 +46,44 @@
   background-color: rgba(2, 2, 125, 0.598);
   background-image: url("https://www.mayflower.in/cdn/shop/files/1880_Banner_Home_Hydrangea.jpg?v=1631626710");
   background-size: cover;
-  width: 90vw; 
+  width: 90vw;
   height: 90vh;
-  margin:auto;
+  margin: auto;
   background-blend-mode: multiply;
   margin-top: 10vh;
   margin-bottom: 10vh;
-
-
 }
-.sentimentTitle{
-  color:whitesmoke;
+
+.sentimentTitle {
+  color: whitesmoke;
   font-size: 70px;
-  font-weight: 600;
-  padding-top: 20px;
-  padding-left: 15vw;
-  font-style: italic;
-  font-family: "Bitter", serif; 
-  
-}
-.sentimentButtons{
-  display : flex;
-  justify-content: space-around;
-  flex-wrap:wrap;
-  padding: 60px;
 
+  padding-top: 20px;
+  padding-left: 10vw;
+  font-family: "Bitter", serif;
 }
-.sentimentButton{
+.sentimentTitle1 {
+  font-weight: 600;
+}
+.sentimentTitle2 {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 50px;
+}
+.sentimentButtons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+.sentimentButton {
   font-family: "Exo 2", serif;
   font-size: 30px;
   width: 16vw;
   height: 100px;
   background-color: rgba(13, 13, 15, 0.511);
   border: none;
-  color:white;
+  color: white;
   /* box-shadow:  2px 14px 2px rgba(13, 13, 15, 0.511); */
   font-family: "Bitter", serif;
 }
-

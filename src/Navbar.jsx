@@ -32,7 +32,7 @@ function Nav() {
               </div>
             </li>
             <li>
-              <button className="signInButton">Login</button>
+              <button className="loginButton">Login</button>
             </li>
             <li>
               <div className="shoppingcartdiv">
