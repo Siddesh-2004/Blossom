@@ -1,54 +1,55 @@
-
-.reviewCardContainer{
-    width:20vw;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    outline:solid 2px rgb(251, 251, 251);
-    border: solid 2px rgb(12, 12, 12);
-    flex-direction: column;
-    background-color: rgb(122, 121, 121);
-    padding:20px;
-    border-radius: 5px;
+.reviewCardContainer {
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: solid 2px rgb(251, 251, 251);
+  border: solid 2px rgb(12, 12, 12);
+  flex-direction: column;
+  background-color: white;
+  padding-top: 10px;
+  border-radius: 5px;
+  color: black;
 }
-.reviewCardImageConatiner{
-    width:72px;
-    height:72px;
-    padding:5px;
-    outline:solid 2px rgb(251, 251, 251);
-    border: solid 2px rgb(12, 12, 12);
-    border-radius: 5px;
+.reviewCardImageConatiner {
+  width: 72px;
+  height: 72px;
+  padding: 5px;
+  outline: solid 2px rgb(251, 251, 251);
+  border: solid 2px rgb(12, 12, 12);
+  border-radius: 5px;
 }
-.reviewCardImage{
-width: 64px;
-height: 64px;
-
+.reviewCardImage {
+  width: 64px;
+  height: 64px;
 }
-.reviewCardStarsAndDateContainer{
-    width:100%;
-    display:flex;
-    align-items: center;
-    justify-content:space-evenly;
-    padding:5px;
+.reviewCardStarsAndDateContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 5px;
 }
-.reviewCardStars{
-    font-size: 16px;
+.reviewCardStars {
+  font-size: 16px;
 }
-.reviewCardDate{
-    font-size: 18px
+.reviewCardDate {
+  font-size: 18px;
 }
-.reviewReviewContainer{
-    text-align: center;
-    font-style: italic;
-    color:black;
+.reviewReviewContainer {
+  text-align: center;
+  font-style: italic;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
-.reviewReview{
-    padding-bottom:15px;
+.reviewContentContainer{
+    height: 56px;
 }
-.reviewCustomerNameContainer{
-    display:flex;
-    justify-content: center;
-    align-items: baseline;
+.reviewCustomerNameContainer {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
-

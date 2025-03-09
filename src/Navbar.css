@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .navContainer {
-  height: 8vh;
+
   width: 100%;
   display: flex;
   align-items: center;
@@ -54,20 +54,23 @@
 .searchBarContainer {
   border-radius: 35px;
   border: solid rgb(77, 76, 76) 2px;
-  height: 6vh;
+ display: flex;
   justify-content: flex-end;
-  padding-bottom: 50px;
+padding-bottom: 10px;
+padding-left: 10px;
+padding-top: 5px;
+
 }
 .searchBar {
   font-size: 20px;
   border: none;
   outline: none;
-  margin-left: 20px;
+  border-radius: 15px;
   background-color: bisque;
 }
 .magnifyingGlass {
-  margin-top: 10px;
-  margin-right: 20px;
+  /* margin-top: 10px;
+  margin-right: 20px; */
 }
 .loginButton {
   font-family: "exo 2";
