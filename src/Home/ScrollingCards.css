@@ -1,0 +1,24 @@
+.scrollingCardsAndButtonsContainer
+{
+width: 100%;    
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-left: 10px;
+padding-right: 10px;
+}
+.scrollingCardsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.scrollingArrowButton{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(231, 229, 229);
+}
+
+
+
+  

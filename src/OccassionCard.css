@@ -1,8 +1,13 @@
 .occassionCardContainer{
     width:469.34px;
-    height:339.23px;
+    margin: 5px;
     padding: 10px;
 }
+.occassionCardContainer:hover {
+    box-shadow: 1px 1px 10px 0px rgb(22 21 23);
+    transform: scale(1.05); 
+    
+  }
 .occassionImage{
     width:100%;
     height:100%;
