@@ -13,6 +13,15 @@ function Nav() {
             <li>Help</li>
           </ul>
         </div>
+        <div className="menuContainer">
+    
+<select id="options" name="options"  className="dropDownMenu">
+  <option value="" disabled selected hidden>MENU</option>
+  <option value="option1">Option 1</option>
+  <option value="option2">Option 2</option>
+  <option value="option3">Option 3</option>
+</select>
+        </div>
         <div className="navTabListContainer2">
           <ul className="navTabList2">
             <li className="searchBarlistElement">
