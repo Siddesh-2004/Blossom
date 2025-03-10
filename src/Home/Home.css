@@ -1,12 +1,16 @@
-:root{
-  --imageShade:  #3c555696;
-  --textColor:white;
-  --headingColor:black;
-  --peach: #F5D4C3;
-  --reviewBack: #E09789;
-  --lightgreen: #C8DBD7;
-  --lightblue: #E9F1EF;
-  --knb: #E9F1EF;
+:root {
+  --imageShade: #3c555696;
+  --textColor: white;
+  --headingColor: black;
+  --peach: #f5d4c3;
+  --reviewBack: #e09789;
+  --lightgreen: #c8dbd7;
+  --lightblue: #e9f1ef;
+  --knb: #e9f1ef;
+}
+*{
+  margin: 0;
+  padding: 0;
 }
 .occassionTitle {
   font-size: 40px;
@@ -48,10 +52,12 @@
 .bestSellingContainer {
   display: flex;
   width: 100%;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+
+  
 }
+
 
 .backgroundImageContainer {
   background-color: var(--imageShade);
@@ -72,7 +78,7 @@
   color: var(--textColor);
   font-size: 70px;
   padding-top: 20px;
- 
+
   font-family: "Bitter", serif;
 }
 .sentimentTitle1 {
@@ -90,7 +96,7 @@
   flex-wrap: wrap;
   width: 60%;
 }
-.sentimentButtonColumn{
+.sentimentButtonColumn {
   display: flex;
   flex-direction: column;
 }
@@ -103,28 +109,27 @@
   background-color: rgba(13, 13, 15, 0);
   border: none;
   color: var(--textColor);
- 
- padding: 30px;
+
+  padding: 30px;
   flex-wrap: wrap;
 
-
-text-align: center;
+  text-align: center;
   /* box-shadow:  2px 14px 2px rgba(13, 13, 15, 0.511); */
   font-family: "Bitter", serif;
   transition-property: text-decoration;
   transition-duration: 500ms;
 }
-.sentimentButton:hover{
+.sentimentButton:hover {
   text-decoration: underline;
 }
 
-.customerReviewContainer{
+.customerReviewContainer {
   width: 100%;
   display: flex;
- margin-top: 20px;
- margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   justify-content: center;
-  color:var(--textColor);
+  color: var(--textColor);
   align-items: center;
   flex-direction: column;
   background-color: var(--reviewBack);

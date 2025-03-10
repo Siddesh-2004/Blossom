@@ -7,7 +7,6 @@ import Nav from "../Navbar.jsx";
 import Banner from "./Banner.jsx";
 import "./Home.css";
 import OccassionCard from "./OccassionCard.jsx";
-import Footer from "../Footer.jsx";
 function Home() {
   let img1 =
     "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt7prodlp/products/p-mauve-surprise-385687-m.jpg";
@@ -151,6 +150,8 @@ function Home() {
         heading2="Floral arrangements that gets the most love"
       />
       <div className="bestSellingContainer ">
+
+    
         <Card
           flowers={{
             src: img1,
@@ -168,6 +169,7 @@ function Home() {
             avalablityStatus: "Out of Stock",
             price: 9999,
           }}
+         
         />
         <Card
           flowers={{
@@ -228,7 +230,7 @@ function Home() {
         <Heading heading1="Customer Reviews" />
         <ScrollingCards Reviews={reviews} />
       </div>
-      <Footer />
+   
     </>
   );
 }

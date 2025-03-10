@@ -3,6 +3,8 @@ import Home from "./Home/Home";
 import Nav from "./Navbar";
 import Features from "./FeaturesList";
 import './App.css'
+import Footer from "./Footer.jsx";
+import Contact from "./Contact/Contact.jsx"
 function App() {
   return (
     <>
@@ -10,7 +12,8 @@ function App() {
     <div className="siddesh">
      <Nav />
      <Features />
-      <Home />
+    <Contact/>
+      <Footer/>
     </div>
     </>
   );

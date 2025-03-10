@@ -1,0 +1,21 @@
+.contactSubHeading{
+    font-family: "exo 2";
+    padding: 10px;
+    font-size: 40px;
+}
+.detailsContainer{
+ margin-left: 10px;
+ padding: 10px;
+ border-left: 6px solid black;
+}
+.details{
+    font-family: "exo 2";
+    font-size: 25px;
+
+    padding: 10px;
+}
+.detailsContainer label{
+    font-size: 40px;
+    
+    font-family: "exo 2";
+}
