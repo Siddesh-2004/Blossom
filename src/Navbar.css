@@ -1,3 +1,9 @@
+:root {
+  --navColor: #3c5556;
+  --navColorHover: #c8dbd7;
+  --navTextcolor: white;
+  --navTextcolorHover: black;
+}
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +15,8 @@
   align-items: center;
   justify-content: space-between;
   padding-left: 8vw;
-  background-color: bisque;
+  background-color: var(--navColor);
+  color: var(--navTextcolor);
 }
 
 .navTabList1 {
@@ -24,15 +31,14 @@
   padding-inline: 2.3vw;
   padding-top: 0.8vw;
   padding-bottom: 0.8vw;
- 
   border-radius: 10px;
   transition-property: background, color;
   transition-duration: 100ms;
 }
 
 .navTabList1 li:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--navColorHover);
+  color: var(--navTextcolorHover);
 }
 .navTabListContainer2 {
   width: 45%;
@@ -59,7 +65,7 @@
 
 .searchBarContainer {
   border-radius: 35px;
-  border: solid rgb(77, 76, 76) 2px;
+  border: solid white 2px;
   display: flex;
   justify-content: flex-end;
   padding: 10px;
@@ -68,8 +74,8 @@
   font-size: 20px;
   border: none;
   outline: none;
-
-  background-color: bisque;
+  background-color: var(--navColor);
+  color:var(--navTextcolor);
 }
 .magnifyingGlass {
   /* margin-top: 10px;
@@ -77,7 +83,7 @@
 }
 .loginButton {
   font-family: "exo 2";
-  background-color: bisque;
+  background-color: var(--navColor);
   /* padding: 10px;
   padding-left: 20px;
   padding-right: 20px;
@@ -89,60 +95,52 @@
   border-radius: 10px;
   transition-property: background-color;
   transition-duration: 100ms;
+  color:var(--navTextcolor);
 }
 .loginButton:hover {
-  background-color: black;
-  color: white;
+  background-color: var(--navColorHover);
+  color: var(--navTextcolorHover);
 }
 .loginButton:active {
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background-color: var(--navColorHover);
+  color: var(--navTextcolorHover);
 }
 .shoppingCart {
+  transition-property: fill;
+  transition-duration: 10ms; 
+}
+
+.menuContainer {
+  font-family: "exo 2";
+  display: none;
+  visibility: hidden;
+  font-size: 16px;
+  transition-duration: 100ms;
   transition-property: background-color, color;
-  transition-duration: 10ms;
+  appearance: none;
 }
-.shoppingCart:hover {
-  color: white;
+.menuContainer:hover {
+  background-color: var(--navColorHover);
+  color: var(--navTextcolorHover);
 }
-.menuContainer{
- font-family: "exo 2";
- display: none;
-visibility: hidden;
-font-size: 16px;
-transition-duration: 100ms;
-transition-property: background-color,color;
-appearance: none;
-
+.dropDownMenu {
+  background-color: var(--navColor);
+  font-size: large;
+  border: none;
+  outline: none;
+  appearance: none;
 }
-.menuContainer:hover{
-background-color: black;
-color: white;
-
-}
-.dropDownMenu{
-background-color: bisque;
-font-size: large;
-border: none;
-outline: none;
-appearance: none;
-
-
-
-}
-@media screen and (max-width: 1000px){
-  .navContainer{
+@media screen and (max-width: 1000px) {
+  .navContainer {
     padding-left: 0px;
     justify-content: center;
   }
-.navTabList1{
-display: none;
-
+  .navTabList1 {
+    display: none;
+  }
+  .menuContainer {
+    visibility: visible;
+    display: block;
+    margin-right: 10px;
+  }
 }
-.menuContainer{
-  visibility: visible;
-  display: block;
-  margin-right: 10px;
-}
-}
-

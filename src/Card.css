@@ -1,5 +1,5 @@
 :root{
-  --stockStatus: orange;
+  --stockStatus: #E09789;
   --textColor: rgba(0, 0, 0, 0.7);
   --cardColor:white;
 }

@@ -35,7 +35,8 @@
   font-size: 16px;
 }
 .reviewCardDate {
-  font-size: 18px;
+  font-size: 16px;
+  font-family: "dancing script";
 }
 .reviewReviewContainer {
   text-align: center;
@@ -53,4 +54,5 @@
   align-items: baseline;
   padding-top: 10px;
   padding-bottom: 10px;
+  font-family: "dancing script";
 }

@@ -2,6 +2,8 @@
     width:469.34px;
     margin: 5px;
     padding: 10px;
+    transition-property: box-shadow,transform;
+    transition-duration: 500ms;
 }
 .occassionCardContainer:hover {
     box-shadow: 1px 1px 10px 0px rgb(22 21 23);

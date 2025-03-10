@@ -13,7 +13,7 @@ import React, { useEffect, useState } from 'react';
       },[]);
 
       return (
-        <div className="main">
+        <div className="bannerContainer">
           <img src={banners.images[currentIndex]} className="slide" alt="banner" />
         </div>
       );
