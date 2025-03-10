@@ -3,14 +3,14 @@ function Features() {
   return (
     <>
       <div className="featuresContainer">
-        <div className="feature">
-          <p>Flower Freshness</p>
+        <div>
+          <p className="features">Flower Freshness</p>
         </div>
-        <div className="feature">
-          <p>Occasions</p>
+        <div>
+          <p className="features">Occasions</p>
         </div>
-        <div >
-          <p>Customized Bouquet</p>
+        <div>
+          <p className="features">Bouquet Customization</p>
         </div>
       </div>
     </>

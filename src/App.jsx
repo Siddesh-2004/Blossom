@@ -9,8 +9,8 @@ function App() {
 
     <div className="siddesh">
      <Nav />
-     {/* <Features />
-      <Home /> */}
+     <Features />
+      <Home />
     
      
     </div>
