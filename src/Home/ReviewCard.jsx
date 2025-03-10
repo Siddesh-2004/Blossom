@@ -23,7 +23,7 @@ function ReviewCard({
         </div>
         <div className="reviewReviewContainer">
           <div className="reviewContentContainer">
-            <p className="reviewContent" >-{reviewContent}</p>
+            <p className="reviewContent" >{reviewContent}</p>
           </div>
 
           <div className="reviewCustomerNameContainer">
