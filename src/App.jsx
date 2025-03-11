@@ -12,7 +12,7 @@ function App() {
     <div className="siddesh">
      <Nav />
      <Features />
-    <Contact/>
+    <Home/>
       <Footer/>
     </div>
     </>
