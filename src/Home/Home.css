@@ -1,9 +1,9 @@
 :root{
-  --imageShade:  #3c555696;
+  --imageShade:  #435c5d96;
   --textColor:white;
   --headingColor:black;
   --peach: #F5D4C3;
-  --reviewBack: #E09789;
+  --reviewBack: #79adae;
   --lightgreen: #C8DBD7;
   --lightblue: #E9F1EF;
   --knb: #E9F1EF;
@@ -50,7 +50,6 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .backgroundImageContainer {
