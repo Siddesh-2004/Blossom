@@ -1,17 +1,14 @@
 :root{
-  --featureColorHover: #3c5556;
-  --featureColor: #c8dbd7;
+  --featureColorHover: #3C5556;
+  --featureColor: #C8DBD7;
   --featureTextColorHover: white;
   --featureTextColor:black;
 }
-
-
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 .featuresContainer{
     width: 100%;
     display: flex;
@@ -25,9 +22,7 @@
     padding: 10PX;
     border-radius: 5px;
     transition-property: background-color,color;
-    transition-duration: 100ms;
-    
-    
+    transition-duration: 100ms;  
 }
 .featuresContainer div:hover{
 background-color: var(--featureColorHover);

@@ -1,16 +1,12 @@
-:root {
-  --imageShade: #3c555696;
-  --textColor: white;
-  --headingColor: black;
-  --peach: #f5d4c3;
-  --reviewBack: #e09789;
-  --lightgreen: #c8dbd7;
-  --lightblue: #e9f1ef;
-  --knb: #e9f1ef;
-}
-*{
-  margin: 0;
-  padding: 0;
+:root{
+  --imageShade:  #435c5d96;
+  --textColor:white;
+  --headingColor:black;
+  --peach: #F5D4C3;
+  --reviewBack: #79adae;
+  --lightgreen: #C8DBD7;
+  --lightblue: #E9F1EF;
+  --knb: #E9F1EF;
 }
 .occassionTitle {
   font-size: 40px;
@@ -52,10 +48,9 @@
 .bestSellingContainer {
   display: flex;
   width: 100%;
- justify-content: center;
- align-items: center;
-
-  
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 
