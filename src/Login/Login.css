@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.loginCardContainer {
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #3c5556; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/loginBackground.jpg");
+  background-repeat: round;
+  background-position: fill;
+  background-color: rgba(128, 128, 128, 0.651);
+  background-blend-mode: multiply;
+  font-family: "exo 2";
+}
+.loginCard {
+  height: 70vh;
+  /* padding-top:30px;
+  padding-bottom:30px;
+  padding-inline: 100px; */
+  background-color: white;
+  border-radius: 25px;
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.usernameContainer{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.usernameContainer label{
+    font-size:25px;
+    padding:10px;
+    width:25vw;
+}
+
+.usernameContainer input{
+    padding-inline: 15px;
+    padding: 5px 5px;
+    width:100%;
+    font-size: 18px;
+    border:none;
+    box-shadow: -1px 0px 6px 1px rgb(188, 188, 188) ;
+    border-radius: 5px;
+    outline: none;
+}
+
+.loginButton{
+    font-size: 20px;
+    padding:15px;
+}
+.signup{
+    padding:5px;
+    font-size: 20px;
+}
