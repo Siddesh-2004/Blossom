@@ -5,6 +5,10 @@ import Features from "./FeaturesList";
 import './App.css'
 import Footer from "./Footer.jsx";
 import Contact from "./Contact/Contact.jsx"
+import About from "./About/About.jsx"
+import Help from "./Help/Help.jsx"
+
+
 function App() {
   return (
     <>
