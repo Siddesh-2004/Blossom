@@ -22,7 +22,7 @@ function Login() {
             <button className="loginButton">Login</button>
           </div>
           <div className="signup">
-            or <a href="">sign up</a>
+             or  <a href="">sign up</a>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 :root {
-  --navColor: #3C5556;
-  --navColorHover: #C8DBD7;
+  --navColor: #3c5556;
+  --navColorHover: #c8dbd7;
   --navTextcolor: white;
   --navTextcolorHover: black;
 }
@@ -75,12 +75,9 @@
   border: none;
   outline: none;
   background-color: var(--navColor);
-  color:var(--navTextcolor);
+  color: var(--navTextcolor);
 }
-.magnifyingGlass {
-  /* margin-top: 10px;
-  margin-right: 20px; */
-}
+
 .loginButton {
   font-family: "exo 2";
   background-color: var(--navColor);
@@ -95,7 +92,7 @@
   border-radius: 10px;
   transition-property: background-color;
   transition-duration: 100ms;
-  color:var(--navTextcolor);
+  color: var(--navTextcolor);
 }
 .loginButton:hover {
   background-color: var(--navColorHover);
@@ -107,7 +104,7 @@
 }
 .shoppingCart {
   transition-property: fill;
-  transition-duration: 10ms; 
+  transition-duration: 10ms;
 }
 
 .menuContainer {
@@ -143,4 +140,13 @@
     display: block;
     margin-right: 10px;
   }
+}
+.Active {
+  color: rgb(107, 198, 107);
+}
+.Inactive {
+  color: white;
+}
+a{
+  text-decoration: none;
 }

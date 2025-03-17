@@ -9,18 +9,22 @@ import About from "./About/About.jsx";
 import Help from "./Help/Help.jsx";
 import Login from "./Login/Login.jsx"
 import Signup from "./Login/Signup.jsx"
-
+import Aniversary from "./Ocassion/Aniversary.jsx";
+import Wedding from "./Ocassion/Wedding.jsx";
+import Birthday from "./Ocassion/Birthday.jsx";
+import GiftsForMen from "./Ocassion/GiftsForMen.jsx";
+import Congratulations from "./Ocassion/Congratulations.jsx";
+import BigGestures from "./Ocassion/BigGestures.jsx";
+import { Outlet } from "react-router-dom";
 function App() {
   return (
     <>
-      <div className="siddesh">
-        {/* <Nav />
-        <Features /> */}
-        <Signup/>
-        {/* <Footer /> */}
-      </div>
-    </>
+        <Nav />
+        <Features />
+       <Outlet/>
+        <Footer/>
+      </>
+  
   );
 }
-
 export default App;

@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logo from "./assets/logoOriginal.jpg";
 function Nav() {
@@ -6,11 +7,19 @@ function Nav() {
       <div className="navContainer">
         <div className="navTabListConatiner1">
           <ul className="navTabList1">
-            <li>Home</li>
-            <li>About</li>
+            <li >
+           <NavLink to='/' className={({isActive})=>`${isActive?"Active":"Inactive"}`}>Home</NavLink> </li>
+            <li>
+            <NavLink to='/about' className={({isActive})=>`${isActive?"Active":"Inactive"}`}>About</NavLink>
+          
+            </li>
            
-            <li>Contact</li>
-            <li>Help</li>
+            <li>
+            <NavLink to='/contact' className={({isActive})=>`${isActive ? "Active":"Inactive"}`}>Contact</NavLink>
+            </li>
+            <li>
+            <NavLink to='/help' className={({isActive})=>`${isActive?"Active":"Inactive"}`}>Help</NavLink> 
+            </li>
           </ul>
         </div>
         <div className="menuContainer">
@@ -41,7 +50,9 @@ function Nav() {
               </div>
             </li>
             <li>
-              <button className="loginButton">Login</button>
+              
+             
+              <NavLink to='/login' className={({isActive})=>`${isActive?"Active":"Inactive"}`}>  <button className="loginButton">Login</button></NavLink>
             </li>
             <li>
             
