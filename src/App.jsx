@@ -15,14 +15,15 @@ import Birthday from "./Ocassion/Birthday.jsx";
 import GiftsForMen from "./Ocassion/GiftsForMen.jsx";
 import Congratulations from "./Ocassion/Congratulations.jsx";
 import BigGestures from "./Ocassion/BigGestures.jsx";
+import { Outlet } from "react-router-dom";
 function App() {
   return (
-    <div>
+    <>
         <Nav />
         <Features />
-        <BigGestures/>
+       <Outlet/>
         <Footer/>
-      </div>
+      </>
   
   );
 }

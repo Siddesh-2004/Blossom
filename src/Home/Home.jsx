@@ -7,6 +7,7 @@ import Nav from "../Navbar.jsx";
 import Banner from "./Banner.jsx";
 import "./Home.css";
 import OccassionCard from "./OccassionCard.jsx";
+import { NavLink,Link } from "react-router-dom";
 function Home() {
   let img1 =
     "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt7prodlp/products/p-mauve-surprise-385687-m.jpg";
@@ -138,7 +139,11 @@ function Home() {
         heading2="May the fragarence of happiness elevate your occasion"
       />
       <div className="occassionConatainer">
+
         <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/birthday_d_split_illustration_830_1738154831704" />
+
+   
+
         <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/anniversary_d_split_illustration_830_1738154869104" />
         <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/wedding_gifts_d_split_illustration_830_1738155423856" />
         <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/grand_gestures_d_split_illustration_830_1738230308822" />
