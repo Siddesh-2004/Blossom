@@ -1,5 +1,5 @@
 import "./Login.css";
-
+import { Link, NavLink } from "react-router-dom";
 function Login() {
   return (
     <>
@@ -22,7 +22,7 @@ function Login() {
             <button className="loginButton">Login</button>
           </div>
           <div className="signup">
-             or  <a href="">sign up</a>
+             or  <Link to='signup'>sign up</Link>
           </div>
         </div>
       </div>
