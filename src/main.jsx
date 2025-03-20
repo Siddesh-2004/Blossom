@@ -30,11 +30,11 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route path="" element={<Home />} />
       <Route path="help" element={<Help />} />
-      <Route path="about" element={<About/>} />
-      <Route path="contact" element={<Contact/>} />
-      <Route path="login" element={<Login/>} />
+      <Route path="about" element={<About />} />
+      <Route path="contact" element={<Contact />} />
+      <Route path="login" element={<Login />} />
+      <Route path="login/signup" element={<Signup />} />
     </Route>
-     
   )
 );
 createRoot(document.getElementById("root")).render(
