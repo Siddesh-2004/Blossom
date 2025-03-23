@@ -20,11 +20,10 @@ import AddCart from "./AddCart/AddCart.jsx";
 function App() {
   return (
     <>
-        {/* <Nav />
+        <Nav />
         <Features />
        <Outlet/>
-        <Footer/> */}
-      <AddCart/>
+        <Footer/>
       </>
   
   );
