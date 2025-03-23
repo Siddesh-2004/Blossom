@@ -25,6 +25,7 @@ import {
   RouterProvider,
   Route,
 } from "react-router-dom";
+import AddCart from "./AddCart/AddCart.jsx";
 let obj={
   images:[
    " https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt12prodlp/products/p-mauve-surprise-385687-m.jpg","https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt12prodlp/products/p-mauve-surprise-385687-m.jpg","https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt12prodlp/products/p-mauve-surprise-385687-m.jpg"
@@ -44,6 +45,8 @@ const router = createBrowserRouter(
       <Route path="contact" element={<Contact />} />
       <Route path="login" element={<Login />} />
       <Route path="login/signup" element={<Signup />} />
+      <Route path="addCart" element={<AddCart />} />
+      
     </Route>
   )
 );
