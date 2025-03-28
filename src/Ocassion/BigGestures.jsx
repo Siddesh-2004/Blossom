@@ -1,8 +1,8 @@
-import './Occasion.css';
-import Card from '../Card.jsx';
-import Heading from '../Heading.jsx';
-function BigGestures(){
-    let img1 =
+import "./Occasion.css";
+import Card from "../Card.jsx";
+import Heading from "../Heading.jsx";
+function BigGestures() {
+  let img1 =
     "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt7prodlp/products/p-mauve-surprise-385687-m.jpg";
   const img2 =
     "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt7prodlp/products/p-a-lot-like-love-hamper-149787-m.jpg";
@@ -18,13 +18,14 @@ function BigGestures(){
     "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt7prodlp/products/p-rosy-gardenia-177811-m.jpg";
   const img8 =
     "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt7prodlp/products/p-regal-blossom-389731-m.jpg";
-    return(
-        <>
-        <Heading heading1="Big Gestures" heading2="When words aren't enough, let flowers speak."
-
-/>
-        <div className='occasionContainer'>
-          <Card
+  return (
+    <>
+      <Heading
+        heading1="Big Gestures"
+        heading2="When words aren't enough, let flowers speak."
+      />
+      <div className="occasionContainer">
+        <Card
           flowers={{
             src: img1,
             name: "SkyPink Roses",
@@ -41,7 +42,6 @@ function BigGestures(){
             avalablityStatus: "Out of Stock",
             price: 9999,
           }}
-         
         />
         <Card
           flowers={{
@@ -61,63 +61,70 @@ function BigGestures(){
             price: 10999,
           }}
         />
-          <Card
+        <Card
           flowers={{
             src: img5,
             name: "Fulfilled Happiness",
             rating: 5,
             avalablityStatus: "Out of Stock",
             price: 10999,
-          }}/>
-              <Card
+          }}
+        />
+        <Card
           flowers={{
             src: img6,
             name: "Fulfilled Happiness",
             rating: 5,
             avalablityStatus: "Out of Stock",
             price: 10999,
-          }}/>
-              <Card
+          }}
+        />
+        <Card
           flowers={{
             src: img7,
             name: "Fulfilled Happiness",
             rating: 5,
             avalablityStatus: "Out of Stock",
             price: 10999,
-          }}/>
-          <Card
+          }}
+        />
+        <Card
           flowers={{
             src: img8,
             name: "Fulfilled Happiness",
             rating: 5,
             avalablityStatus: "Out of Stock",
             price: 10999,
-          }}/>
-          <Card
+          }}
+        />
+        <Card
           flowers={{
             src: img3,
             name: "Fulfilled Happiness",
             rating: 5,
             avalablityStatus: "Out of Stock",
             price: 10999,
-          }}/>
-          <Card
+          }}
+        />
+        <Card
           flowers={{
             src: img5,
             name: "Fulfilled Happiness",
             rating: 5,
             avalablityStatus: "Out of Stock",
             price: 10999,
-          }}/>
-          <Card
+          }}
+        />
+        <Card
           flowers={{
             src: img1,
             name: "Fulfilled Happiness",
             rating: 5,
             avalablityStatus: "Out of Stock",
             price: 10999,
-          }}/>
-            <Card
+          }}
+        />
+        <Card
           flowers={{
             src: img4,
             name: "Fulfilled Happiness",
@@ -126,10 +133,9 @@ function BigGestures(){
             price: 10999,
           }}
         />
-          </div>
-        </>
-    );
-    
+      </div>
+    </>
+  );
 }
 
 export default BigGestures;

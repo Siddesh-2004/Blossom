@@ -1,4 +1,5 @@
 import "./FeaturesList.css";
+import { NavLink } from "react-router-dom";
 function Features() {
   return (
     <>
@@ -6,9 +7,16 @@ function Features() {
         <div>
           <p className="features">Flower Freshness</p>
         </div>
-        <div>
-          <p className="features">Occasions</p>
-        </div>
+        
+          <NavLink
+            to="/Occasions"
+            className={({ isActive }) => `${isActive ? "Active" : "Inactive"}`}
+          >
+          <div>
+            Occasions
+            </div>
+          </NavLink>
+        
         <div>
           <p className="features">Bouquet Customization</p>
         </div>
