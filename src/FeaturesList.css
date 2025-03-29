@@ -17,6 +17,7 @@
     padding: 5px;
     justify-content: space-evenly;
     color:var(--featureTextColor);
+
 }
 .featuresContainer div{
     padding: 10PX;
@@ -27,4 +28,13 @@
 .featuresContainer div:hover{
 background-color: var(--featureColorHover);
 color: var(--featureTextColorHover);
+}
+.featuresContainer a{
+  color:black;
+  transition-property: color;
+  transition-duration:50ms;
+}
+
+.featuresContainer a:hover{
+  color:white;
 }

@@ -1,6 +1,7 @@
 import './Occasion.css';
 import Card from '../Card.jsx';
 import Heading from '../Heading.jsx';
+import { Link } from 'react-router-dom';
 function Birthday(){
     let img1 =
     "https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt7prodlp/products/p-mauve-surprise-385687-m.jpg";
@@ -25,7 +26,7 @@ function Birthday(){
 
 />
         <div className='occasionContainer'>
-          <Card
+      <Link to="flowerDetails" >   <Card
           flowers={{
             src: img1,
             name: "SkyPink Roses",
@@ -33,7 +34,7 @@ function Birthday(){
             avalablityStatus: "In Stock",
             price: 6999,
           }}
-        />
+        /></Link>
         <Card
           flowers={{
             src: img2,

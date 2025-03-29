@@ -59,7 +59,7 @@ function FlowerPage({flowersdata}) {
         </div>
         <div className="contentBox">
           <div className="flowerNameBox">
-            <p className="flowerName">{flowersdata.name}</p>
+            <p className="flowerName">{flowersdata.flowerName}</p>
           </div>
           <div className="flowerDescriptionBox">
             <p className="flowerDescription">
