@@ -17,7 +17,6 @@ import Congratulations from "./Ocassion/Congratulations.jsx";
 import BigGestures from "./Ocassion/BigGestures.jsx";
 import AddCart from "./AddCart/AddCart.jsx";
 import { Outlet } from "react-router-dom";
-import AddCart from "./AddCart/AddCart.jsx";
 function App() {
   return (
     <>
