@@ -47,6 +47,11 @@ const router = createBrowserRouter(
         path="/Birthday/flowerDetails"
         element={<FlowerPage flowersdata={obj} />}
       />
+      <Route path="/Aniversary" element={<Aniversary/>} />
+      <Route path="/Birthday" element={<Birthday />} />
+      <Route path="/Congratulations" element={<Congratulations />} />
+      <Route path="/BigGestures" element={<BigGestures/>} />
+      <Route path="/GiftsForMen" element={<GiftsForMen/>} />
       <Route path="help" element={<Help />} />
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
@@ -54,6 +59,15 @@ const router = createBrowserRouter(
       <Route path="login/signup" element={<Signup />} />
       <Route path="addCart" element={<AddCart />} />
       <Route path="Occasions" element={<MainOccasion />} />
+      <Route path="Occasions/Aniversary" element={<Aniversary/>}/>
+      <Route path="Occasions/Birthday" element={<Birthday/>}/>
+      <Route path="Occasions/Congratulations" element={<Congratulations/>}/>
+      <Route path="Occasions/GiftsForMen" element={<GiftsForMen/>}/>
+      <Route path="Occasions/BigGestures" element={<BigGestures/>}/>
+
+
+
+
     </Route>
   )
 );
