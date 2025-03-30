@@ -1,7 +1,8 @@
 import React from 'react'
 import Card from '../Card'
 import './OccasionCardsContainer.css'
-function OccasionCardsContainer() {
+import {Link} from 'react-router-dom'
+function OccasionCardsContainer({page}) {
     return (
     <>
     <div className='OccasionCardsContainer'>
@@ -32,15 +33,16 @@ function OccasionCardsContainer() {
             avalablityStatus: "In Stock",
             price: 3999,
           }}/>
-         <div className='addMoreContainer'>
+          <Link to={page}>
+         <div className='addMoreContainer' >
          <span class="material-symbols-outlined ">
 add_circle
 </span>
          </div>
-        
+         </Link>
     </div> 
     </>
   )
 }
 
-export default OccasionCardsContainer
+export default OccasionCardsContainer;

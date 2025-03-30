@@ -1,7 +1,7 @@
 import './OccassionCard.css'
 import {Link} from "react-router-dom"
 
-function OccassionCard({occassionImageUrl,page="Aniversary"}){
+function OccassionCard({occassionImageUrl,page}){
     return(
         <>
         <Link to={page}>

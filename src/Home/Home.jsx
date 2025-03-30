@@ -141,11 +141,11 @@ function Home() {
     <div className="occassionConatainer">
       
         <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/birthday_d_split_illustration_830_1738154831704" page="Birthday"/>
-        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/anniversary_d_split_illustration_830_1738154869104" page="Anniversary"/>
-        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/wedding_gifts_d_split_illustration_830_1738155423856" />
-        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/grand_gestures_d_split_illustration_830_1738230308822" />
-        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/gifts_for_men_d_split_illustration_830_1738154921657" />
-        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/congratulations_d_split_illustration_830_1738155459964" />
+        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/anniversary_d_split_illustration_830_1738154869104" page="Aniversary"/>
+        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/wedding_gifts_d_split_illustration_830_1738155423856" page="Wedding"/>
+        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/grand_gestures_d_split_illustration_830_1738230308822" page="BigGestures"/>
+        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/gifts_for_men_d_split_illustration_830_1738154921657" page="GiftsForMen"/>
+        <OccassionCard occassionImageUrl="https://res.cloudinary.com/interflora/f_auto,q_auto,t_pnopt10prodlp/banners/congratulations_d_split_illustration_830_1738155459964" page="Congratulations"/>
       </div>
       <Heading
         heading1="Best Selling"

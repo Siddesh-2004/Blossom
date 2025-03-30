@@ -24,7 +24,6 @@ function App() {
         <Features/>
         <Outlet/>
         <Footer/>
-        {/* <AddCart /> */}
       </>
   
   );

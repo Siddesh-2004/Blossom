@@ -19,27 +19,17 @@ const MainOccasion = () => {
   return (
     <>
         <Heading heading1="ANIVERSARY" heading2='"Love grows stronger with every bloom'/>
-        
-        <OccasionCardsContainer />
-        <Heading
-        heading1="Big Gestures"
-        heading2="When words aren't enough, let flowers speak."
-      />
-        
-        <OccasionCardsContainer />
-        <Heading heading1="Birthday" heading2=
-"Blooming wishes for a beautiful year ahead!"
-
-/>
-        
-        <OccasionCardsContainer />
+        <OccasionCardsContainer page="Aniversary"/>
+        <Heading heading1="Big Gestures" heading2="When words aren't enough, let flowers speak."/>
+        <OccasionCardsContainer page="BigGestures"/>
+        <Heading heading1="Birthday" heading2="Blooming wishes for a beautiful year ahead!"/>
+        <OccasionCardsContainer page="Birthday"/>
         <Heading heading1="Congratulations" heading2="Success smells sweeter with a touch of flowers!"/>
-        
-        <OccasionCardsContainer />
-
+        <OccasionCardsContainer page="Congratulations"/>
         <Heading heading1=" Gifts For Men" heading2=""/>
-        <OccasionCardsContainer />
-
+        <OccasionCardsContainer page="GiftsForMen" />
+        <Heading heading1=" Wedding" heading2="Love, laughter, and flowers for a lifetime together."/>
+        <OccasionCardsContainer page="Wedding" />
     </>
   )
 }

@@ -43,11 +43,11 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route path="" element={<Home />} />
       <Route path="Birthday" element={<Birthday />} />
-      <Route path="Anniversary" element={<Aniversary/>} />
-      <Route path="Birthday" element={< />} />
-      <Route path="Birthday" element={<Birthday />} />
-
-      
+      <Route path="Aniversary" element={<Aniversary/>} />
+      <Route path="BigGestures" element={<BigGestures />} />
+      <Route path="Congratulations" element={<Congratulations />} />
+      <Route path="GiftsForMen" element={<GiftsForMen />} />
+      <Route path="Wedding" element={<Wedding />} />
       <Route
         path="/Birthday/flowerDetails"
         element={<FlowerPage flowersdata={obj} />}
@@ -59,12 +59,18 @@ const router = createBrowserRouter(
       <Route path="login/signup" element={<Signup />} />
       <Route path="addCart" element={<AddCart />} />
       <Route path="Occasions" element={<MainOccasion />} />
+      <Route path="/Occasions/Aniversary" element={<Aniversary/>}/>
+      <Route path="/Occasions/Birthday" element={<Birthday/>}/>
+      <Route path="/Occasions/GiftsForMen" element={<GiftsForMen/>}/>
+      <Route path="/Occasions/Congratulations" element={<Congratulations/>}/>
+      <Route path="/Occasions/Wedding" element={<Wedding/>}/>
+      <Route path="/Occasions/BigGestures" element={<BigGestures/>}/>
+
     </Route>
   )
 );
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    {/* <RouterProvider router={router} /> */}
-    <App/>
+    <RouterProvider router={router} /> 
   </StrictMode>
 );
