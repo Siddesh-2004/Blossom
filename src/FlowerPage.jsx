@@ -1,6 +1,11 @@
 import "./FlowerPage.css";
 import { useEffect, useState } from "react";
+import { useDispatch } from "react-redux";
+import {addItem} from './features/addCartFeature/addCartSlice.js'
+
+
 function FlowerPage({flowersdata}) {
+  const dispatch=useDispatch();
   const images=flowersdata.images
   let [index, setIndex] = useState(0);
   function imageChange() {
@@ -70,7 +75,9 @@ function FlowerPage({flowersdata}) {
             <p className="flowerPrice">Price :${flowersdata.price}</p>
           </div>
           <div className="addcartBox">
-            <button>ADD TO CART</button>
+            <button onClick={()=>
+                  dispatch(addItem({flowerName:"jeevikaNayi",flowerPrice:"$1000"}))
+                 }>ADD TO CART</button>
           </div>
         </div>
       </div>

@@ -20,6 +20,8 @@ import Congratulations from "./Ocassion/Congratulations.jsx";
 import BigGestures from "./Ocassion/BigGestures.jsx";
 import FlowerPage from "./FlowerPage.jsx";
 import MainOccasion from "./Ocassion/MainOccasion.jsx";
+import {Provider} from 'react-redux'
+import {store} from './app/store.js'
 import {
   createBrowserRouter,
   createRoutesFromElements,
@@ -70,7 +72,7 @@ const router = createBrowserRouter(
   )
 );
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
+  <Provider store={store}>
     <RouterProvider router={router} /> 
-  </StrictMode>
+  </Provider>
 );
