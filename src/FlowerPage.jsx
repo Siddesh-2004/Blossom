@@ -76,7 +76,7 @@ function FlowerPage({flowersdata}) {
           </div>
           <div className="addcartBox">
             <button onClick={()=>
-                  dispatch(addItem({flowerName:"jeevikaNayi",flowerPrice:"$1000"}))
+                  dispatch(addItem({flowerName:"Sunflower Kisses",flowerPrice:"$6000"}))
                  }>ADD TO CART</button>
           </div>
         </div>

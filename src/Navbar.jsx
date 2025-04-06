@@ -7,19 +7,19 @@ function Nav() {
       <div className="navContainer">
         <div className="navTabListConatiner1">
           <ul className="navTabList1">
-            <li >
-           <NavLink to='/' className={({isActive})=>`${isActive?"Active":"Inactive"}`}>Home</NavLink> </li>
-            <li>
-            <NavLink to='/about' className={({isActive})=>`${isActive?"Active":"Inactive"}`}>About</NavLink>
+            
+           <NavLink to='/' className={({isActive})=>`${isActive?"Active":"Inactive"}`}><li >Home</li></NavLink> 
           
-            </li>
+            <NavLink to='/about' className={({isActive})=>`${isActive?"Active":"Inactive"}`}>  <li>About  </li></NavLink>
+          
+          
            
-            <li>
-            <NavLink to='/contact' className={({isActive})=>`${isActive ? "Active":"Inactive"}`}>Contact</NavLink>
-            </li>
-            <li>
-            <NavLink to='/help' className={({isActive})=>`${isActive?"Active":"Inactive"}`}>Help</NavLink> 
-            </li>
+           
+            <NavLink to='/contact' className={({isActive})=>`${isActive ? "Active":"Inactive"}`}> <li>Contact  </li></NavLink>
+          
+            
+            <NavLink to='/help' className={({isActive})=>`${isActive?"Active":"Inactive"}`}><li>Help </li></NavLink> 
+           
           </ul>
         </div>
         <div className="menuContainer">

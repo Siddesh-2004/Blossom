@@ -1,0 +1,58 @@
+:root {
+    --buttonColor: #3c5556;
+    --buttonColorHover: #c8dbd7;
+    --buttonTextcolor: white;
+    --buttonTextColorHover: black;
+  }
+
+
+.cardItemContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+.cardItemImageContainer{
+    width: 150px;
+    border: 2px solid rgb(32, 34, 32);
+    border-radius: 20px;
+    
+}
+.cardItemImage{
+    width: 100%;
+    border-radius: 20px;
+}
+.cardItemFlowerNameContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.cardItemFlowerNameContainer p{
+    font-family: "exo 2";
+    font-size: 40px;
+}
+.cartItemDateAndTimeContainer p{
+    font-family: "exo 2";
+    font-size: 30px;
+}
+.cardItemButton{
+    margin: 2px;
+    background-color: var(--buttonColor);
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    transition-duration: 50ms;
+    transition-property: background,color;
+}
+.cardItemButton:hover{
+        background-color:var(--buttonColorHover) ;
+        color:var(--buttonTextColorHover);
+}

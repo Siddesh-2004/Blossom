@@ -1,13 +1,17 @@
 import {useSelector,useDispatch} from 'react-redux'
-import { removeItem } from '../features/addCartFeature/addCartSlice';
-
+import { removeItem } from '../features/addCartFeature/addCartSlice'
+import './AddCart.css'
+import Heading from '../Heading'
 function AddCart(){
     
 const items=useSelector(state=>state.items)
 const dispatch=useDispatch()
 console.log(items);
     return (
-      
+      <>
+
+      <Heading heading1="Shopping Cart" heading2="Delivering to : 574114"/>
+
       <ul>
       {items.map((item)=>(
         <li key={item.id}>
@@ -38,6 +42,8 @@ console.log(items);
       </li>
       ))}
       </ul>  
+      </>
+
     )
 }
 
