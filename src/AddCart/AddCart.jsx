@@ -7,6 +7,9 @@ function AddCart(){
 const items=useSelector(state=>state.items)
 const dispatch=useDispatch()
 console.log(items);
+if(items.length==0)return(
+  <Heading heading1="The Cart is waiting to be filled!!!" heading2="Fill it ,with Flowers and Joy!!!"/>
+)
     return (
       <>
 
