@@ -1,6 +1,10 @@
+import { useSelector,useDispatch } from "react-redux";
 import "./Signup.css";
 
 function Signup() {
+  function handleSubmit(e){
+    e.preventDefault()
+  }
   return (
     <>
       <div className="loginCardContainer">
@@ -8,7 +12,9 @@ function Signup() {
           <div className="loginHeadingContainer">
             <h1 className="LoginHeading">Sign Up</h1>
           </div>
-          <form>
+          <form onSubmit={()=>{
+            
+          }}>
           <div className="usernameContainer">
               <label>Username:</label>
               <input type="text" placeholder="Enter username"></input>

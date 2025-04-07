@@ -4,7 +4,7 @@ import './AddCart.css'
 import Heading from '../Heading'
 function AddCart(){
     
-const items=useSelector(state=>state.items)
+const items=useSelector(state=>state.addCart.items)
 const dispatch=useDispatch()
 console.log(items);
 if(items.length==0)return(
