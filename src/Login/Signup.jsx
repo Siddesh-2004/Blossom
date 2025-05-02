@@ -2,9 +2,9 @@ import { useSelector,useDispatch } from "react-redux";
 import "./Signup.css";
 
 function Signup() {
-  function handleSubmit(e){
-    e.preventDefault()
-  }
+
+
+  
   return (
     <>
       <div className="loginCardContainer">
@@ -29,7 +29,7 @@ function Signup() {
             </div>
           </form>
           <div>
-            <button className="loginButton">Sign Up</button>
+            <button className="loginButton" >Sign Up</button>
           </div>
           
         </div>

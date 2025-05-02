@@ -142,10 +142,10 @@
   }
 }
 .Active {
-  color: rgb(107, 198, 107);
+  color: rgb(196, 248, 8);
 }
 .Inactive {
-  color: white;
+  color: rgb(255, 255, 255);
 }
 a {
   text-decoration: none;

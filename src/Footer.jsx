@@ -37,6 +37,7 @@ function Footer() {
           <Heading heading1="Thank You For Visting Blossom ," heading2="We hope We Made A Smile Bloom"  />
         </div>
       </div>
+      
     </>
   );
 }

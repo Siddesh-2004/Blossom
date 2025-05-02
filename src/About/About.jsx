@@ -5,7 +5,7 @@ function About() {
   return (
     <>
       <div className="aboutContainer">
-        <Heading heading1="About Us" />
+        <Heading heading1="About Us" heading2="" />
         <p className="aboutContent">
           <h1>Welcome to Blossom,</h1>
           your one-stop destination for fresh and beautiful flowers! We are
